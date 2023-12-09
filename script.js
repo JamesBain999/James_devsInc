@@ -5,8 +5,8 @@ function diceValue() {
     }
 
 function testMe(x) {
-    if (Math.floor((Math.random() * (x)) + 1) <= x || Math.floor((Math.random() * (x)) + 1) >= 1) {
-    return true
+    if (Math.floor((Math.random() * (x)) + 1) <= x && Math.floor((Math.random() * (x)) + 1) >= 1) {
+        return true
     } else {
         return false
     }}
